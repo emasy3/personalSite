@@ -6,7 +6,6 @@ import { AppRoutingModule } from './/app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { CvComponent } from './cv/cv.component';
 import { ProgComponent } from './prog/prog.component';
-import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -15,7 +14,6 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     CvComponent,
     ProgComponent,
-    ContactComponent
   ],
   imports: [
     BrowserModule,
