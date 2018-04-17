@@ -1,4 +1,10 @@
 
+hr.hr1 {
+    border-top: 2.5px solid rgba(0, 0, 0, 0.4);
+}
+hr {
+    border-top: 2.5px solid rgba(0, 0, 0, 0.2);
+}
 p {
     font-weight: 450;
     font-size: 1.25rem;
@@ -15,15 +21,12 @@ section {
         color: #212121;
     }
 }
-p.card-text {
-    font-size: 1rem;
-}
 .card-body{
 
     text-align: center;
 
 }
-h4.card-title {
+h4 {
 
         font-size: 2rem;
         font-weight: bold !important;

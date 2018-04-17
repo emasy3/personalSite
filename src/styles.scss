@@ -1,4 +1,6 @@
-
+i.myMob {
+    font-size:31px !important;
+}
 html, main {
     font: arial;
     background-color: #f9fbe7;
@@ -10,9 +12,11 @@ footer.pt-4, .mt-4 {
 main {
     margin-bottom:0rem;
 }
-footer {
-    p, h1, h4 {
-        font-color: #f9fbe7
-    }
-    
+
+p.fa { 
+   font-color: #f9fbe7;      
 }
+footer.myFoot a{
+        font: arial;
+        font-color: #f9fbe7 !important;
+    }

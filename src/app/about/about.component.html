@@ -10,7 +10,7 @@
         <h4 class="card-title">Elijah Johnson</h4>
         <hr>
         <!--Quotation-->
-        <p>Software Engineer, Game Developer, Student, Musician, and aspiring entrepreneur</p>
+        <p>Software Engineer, Game Developer, Student, Musician, and aspiring entrepreneur.</p>
     </div>
 
 </div>
@@ -23,8 +23,8 @@
 <section class="text-center">
 
     <h1 class="display-4">About Me</h1>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-    <hr>
+    <p class="lead">I grew up in Silver Spring, MD. Fortunately, I had the opportunity to attend good schools, make good friends, and pursue a life oriented around education and science. I was exposed to music at a young age and that quickly evolved into a deep creative desire to build things in, and communicate through, various mediums.</p>
+    <hr class="hr1 ">
 
     <!--Section heading-->
     <h1 class="display-4 dp1">Passions</h1>
@@ -36,34 +36,31 @@
     <div class="card cd1 col-md-3 mb-4">
     <div class="card-header blue-grey darken-3 white-text">
       <div class="col-1 col-md-2 float-left">
-        <i class="fa fa-bullhorn fa-2x"></i>
+        <i class="fa fa-music fa-2x"></i>
         </div>
       
     </div>
     <div class="card-body blue-grey lighten-1">
         <h4 class="display-2">Music</h4>
-        <p class="card-text sp">With supporting text below as a natural lead-in to additional content.</p>
-        <button type="button" class="btn blue-grey darken-3" (click)="style.show()" mdbRippleRadius>Learn More</button>
+        <p class="card-text sp">I began playing instruments in elementary school..</p>
+        <button type="button" class="btn blue-grey darken-3" (click)="style1.show()" mdbRippleRadius>Learn More</button>
 
-        <div mdbModal #style="mdb-modal" class="modal fade" id="centralModalSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div mdbModal #style1="mdb-modal" class="modal fade" id="centralModalSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-notify modal-info" role="document">
                 <div class="modal-content">
                     <div class="modal-header blue-grey darken-3">
-                        <p class="heading lead">Modal Info</p>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="style.hide()">
+                        <p class="heading lead">Music</p>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="style1.hide()">
                             <span aria-hidden="true" class="white-text">×</span>
                         </button>
                     </div>
                     <div class="modal-body">
                         <div class="text-center">
-                            <i class="fa fa-check fa-4x mb-3 animated rotateIn"></i>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam blanditiis ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione 
-                                fuga, enim, ab officiis totam.</p>
+                            <p>After picking up the clarinet in elementary school, I gave it up five years later to pursue a new instrument and study musical theory. I taught myself guitar in highschool and studied musical theory. I felt that I had a deeper appreciation for the instrument than others. This lead me to continue my passion for playing and studying musical theory to this day. And I plan to go on as long as I can.</p>
                         </div>
                     </div>
                     <div class="modal-footer justify-content-center">
-                        <a type="button" class="btn btn-primary-modal blue-grey darken-3" mdbRippleRadius>Get it now <i class="fa fa-diamond ml-1"></i></a>
-                        <a type="button" class="btn btn-outline-secondary-modal" data-dismiss="modal" (click)="style.hide()" mdbRippleRadius>No, thanks</a>
+                        <a type="button" class="btn btn-outline-secondary-modal" data-dismiss="modal" (click)="style1.hide()" mdbRippleRadius>Close</a>
                     </div>
                 </div>
             </div>
@@ -79,40 +76,37 @@
     <div class="card cd1 col-md-3 mb-4">
     <div class="card-header blue-grey darken-3 white-text">
       <div class="col-1 col-md-2 float-left">
-        <i class="fa fa-bullhorn fa-2x"></i>
+        <i class="fa fa-code fa-2x"></i>
         </div>
     </div>
     <div class="card-body blue-grey lighten-1">
         <h4 class="display-2">Technology</h4>
-        <p class="card-text sp">With supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text sp">I developed a passion for technology in college..</p>
         
-        <button type="button" class="btn blue-grey darken-3" (click)="style.show()" mdbRippleRadius>Learn More</button>
+        <button type="button" class="btn blue-grey darken-3" (click)="style2.show()" mdbRippleRadius>Learn More</button>
 
-        <div mdbModal #style="mdb-modal" class="modal fade" id="centralModalSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div mdbModal #style2="mdb-modal" class="modal fade" id="centralModalSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-notify modal-info" role="document">
                 <div class="modal-content">
                     <div class="modal-header blue-grey darken-3">
-                        <p class="heading lead">Modal Info</p>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="style.hide()">
+                        <p class="heading lead">Technology</p>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="style2.hide()">
                             <span aria-hidden="true" class="white-text">×</span>
                         </button>
                     </div>
                     <div class="modal-body">
                         <div class="text-center">
-                            <i class="fa fa-check fa-4x mb-3 animated rotateIn"></i>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam blanditiis ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione 
-                                fuga, enim, ab officiis totam.</p>
+                            <p>When I came to college, I had a vague idea of how I wanted to rule the world. I pursued Finance but had experience with technology, and most of my entrepreneurial ideas were technological. I knew I wanted to be a leader and creator but I discounted programming and the creative freedom it brought. After some convincing from a friend of mine, I realized that there was an easier route to entrepreneurial and creative-freedom; technology. It is my strong belief that through technology, many of todays problems can be solved. It is my dream that, perhaps there will come a time in the future where a piece of technology or technological service can help bring two fueding people to an understanding and mutual respect and appreciation for one another.</p>
                         </div>
                     </div>
                     <div class="modal-footer justify-content-center">
-                        <a type="button" class="btn btn-primary-modal blue-grey darken-3" mdbRippleRadius>Get it now <i class="fa fa-diamond ml-1"></i></a>
-                        <a type="button" class="btn btn-outline-secondary-modal" data-dismiss="modal" (click)="style.hide()" mdbRippleRadius>No, thanks</a>
+                        <a type="button" class="btn btn-outline-secondary-modal" data-dismiss="modal" (click)="style2.hide()" mdbRippleRadius>Close</a>
                     </div>
                 </div>
             </div>
         </div>
         <!--end of modal-->
-
+ 
     </div>
   </div>
     <!--Grid column-->
@@ -121,35 +115,32 @@
     <div class="card cd1 col-md-3 mb-4">
     <div class="card-header blue-grey darken-3 white-text">
       <div class="col-1 col-md-2 float-left">
-        <i class="fa fa-bullhorn fa-2x"></i>
+        <i class="fa fa-book fa-2x"></i>
         </div>
       
     </div>
     <div class="card-body blue-grey lighten-1">
         <h4 class="display-2">Philosophy</h4>
-        <p class="card-text sp">With supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text sp">My passion for philosophy began when I was a kid..</p>
         
-        <button type="button" class="btn blue-grey darken-3" (click)="style.show()" mdbRippleRadius>Learn More</button>
+        <button type="button" class="btn blue-grey darken-3" (click)="style3.show()" mdbRippleRadius>Learn More</button>
 
-        <div mdbModal #style="mdb-modal" class="modal fade" id="centralModalSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div mdbModal #style3="mdb-modal" class="modal fade" id="centralModalSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-notify modal-info" role="document">
                 <div class="modal-content">
                     <div class="modal-header blue-grey darken-3">
-                        <p class="heading lead">Modal Info</p>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="style.hide()">
+                        <p class="heading lead">Philosophy</p>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="style3.hide()">
                             <span aria-hidden="true" class="white-text">×</span>
                         </button>
                     </div>
                     <div class="modal-body">
                         <div class="text-center">
-                            <i class="fa fa-check fa-4x mb-3 animated rotateIn"></i>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam blanditiis ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione 
-                                fuga, enim, ab officiis totam.</p>
+                            <p>When I was I kid, I often thought of the world from a caring perspective but this perspective was more often than not, a logical and reasonable one. I often spent time thinking of the mysteries of the universe and the answers to them. I have found that the answers I came up with as a kid are the same answers great philosophers before me have come up with, likely through the same logical process of hypothesizing.</p>
                         </div>
                     </div>
                     <div class="modal-footer justify-content-center">
-                        <a type="button" class="btn btn-primary-modal blue-grey darken-3" mdbRippleRadius>Get it now <i class="fa fa-diamond ml-1"></i></a>
-                        <a type="button" class="btn btn-outline-secondary-modal" data-dismiss="modal" (click)="style.hide()" mdbRippleRadius>No, thanks</a>
+                        <a type="button" class="btn btn-outline-secondary-modal" data-dismiss="modal" (click)="style3.hide()" mdbRippleRadius>Close</a>
                     </div>
                 </div>
             </div>
