@@ -90,7 +90,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 var routes = [
-    { path: '/', component: __WEBPACK_IMPORTED_MODULE_2__about_about_component__["a" /* AboutComponent */] },
+    { path: '', component: __WEBPACK_IMPORTED_MODULE_2__about_about_component__["a" /* AboutComponent */] },
     { path: 'cv', component: __WEBPACK_IMPORTED_MODULE_3__cv_cv_component__["a" /* CvComponent */] },
     { path: 'prog', component: __WEBPACK_IMPORTED_MODULE_4__prog_prog_component__["a" /* ProgComponent */] }
 ];
