@@ -7,6 +7,7 @@ import { ProgComponent } from './prog/prog.component';
 
 const routes: Routes = [
     { path: '', component: AboutComponent },
+    { path: 'about', component: AboutComponent },
     { path: 'cv', component: CvComponent },
     { path: 'prog', component: ProgComponent }
 ];
